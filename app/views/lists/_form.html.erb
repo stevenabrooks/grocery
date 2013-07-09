@@ -1,0 +1,22 @@
+<%= form_tag lists_path do %>
+
+
+
+    <%= label_tag :name, "List Name" %>
+    <%= text_field_tag 'name' %><br>
+
+    <%= label_tag :item, "Item" %>    
+    <%= text_field_tag 'item[]' %><br />
+
+    <%= label_tag :item, "Item" %>    
+    <%= text_field_tag 'item[]' %><br />
+
+    <%= label_tag :item, "Item" %>    
+    <%= text_field_tag 'item[]' %><br />
+
+    <%= label_tag :item, "Item" %>    
+    <%= text_field_tag 'item[]' %><br />
+
+    <%= submit_tag %>
+
+<% end %>

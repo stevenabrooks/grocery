@@ -1,4 +1,10 @@
 Grocery::Application.routes.draw do
+  resources :items
+
+
+  resources :lists
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
